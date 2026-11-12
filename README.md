@@ -1,2 +1,42 @@
-# STK-Satellite-Simulation-Tutorial
-面向初学者的 STK 12 教程，涵盖卫星轨道仿真、传感器建模、可见性分析和卫星星座仿真。Beginner-friendly STK 12 tutorials covering satellite orbit simulation, sensor modeling, access analysis, and constellation simulation.
+STK 12 卫星仿真学习笔记
+
+STK 12 Satellite Simulation Tutorials
+
+项目简介
+
+本仓库记录 STK 12（Systems Tool Kit，系统工具包）的学习过程，主要涉及卫星轨道仿真、传感器建模、可见性分析及卫星星座仿真。
+
+内容以实际操作为主，包含软件界面说明、仿真参数设置、结果分析以及学习过程中遇到的问题。
+
+目前使用版本：STK 12.2
+
+学习内容
+
+- [x] 创建卫星仿真场景（Scenario）
+- [x] 卫星轨道设置与运行
+- [x] 创建地面观测目标（Facility）
+- [x] 卫星可见性分析（Access Analysis）
+- [x] 传感器建模与视场角设置（Sensor Modeling）
+- [x] 不同视场角下的可见性对比
+- [ ] 卫星观测能力评估
+- [ ] 多卫星星座仿真
+- [ ] 气象条件对卫星观测的影响
+
+已完成的仿真实验
+
+以新西兰惠灵顿为地面观测目标，创建一颗低轨卫星，并比较不同条件下的可见性分析结果。
+
+仿真条件| 可见次数
+卫星与地面目标的几何可见性| 7 次
+传感器圆锥半角 10°| 0 次
+传感器圆锥半角 45°| 2 次
+
+以上为当前仿真场景中的计算结果，不代表真实卫星的观测性能。
+
+后续计划
+
+继续学习 STK 中的卫星覆盖分析、星座建模和仿真结果导出，并逐步整理成完整的入门教程。
+
+说明
+
+本仓库仅用于个人学习与技术交流，不包含 STK 软件安装包或许可证文件。
