@@ -51,7 +51,7 @@ STK 12.2 入门实操（一）：卫星对地可见性分析与传感器视场�
 
 在随后出现的 Select Object（选择对象）窗口中选择 "Satellite1"，表示将传感器安装在这颗卫星上。
 
-【插图03：选择 Satellite1 作为传感器所属对象】
+![创建卫星传感器](../images/03-sensor-creation.jpg)
 
 完成后，左侧对象浏览器应出现 "Satellite1 → Sensor1" 的层级结构。
 
@@ -67,7 +67,7 @@ Cone Half Angle（圆锥半角）| 10°
 
 Cone Half Angle 表示圆锥中心轴与边缘之间的夹角，因此半角为10°时，完整锥角为20°。
 
-【插图04：Sensor1 的 Definition 设置界面】
+![传感器定义及10度圆锥半角设置](../images/04-sensor-definition.jpg)
 
 3.3 检查传感器指向
 
@@ -80,7 +80,7 @@ Cone Half Angle 表示圆锥中心轴与边缘之间的夹角，因此半角为1
 - Azimuth（方位角）：0°
 - Elevation（仰角）：90°
 
-【插图05：Sensor1 的 Pointing 设置界面】
+![传感器固定指向设置](../images/05-sensor-pointing.jpg)
 
 这里的 Fixed 是相对于卫星局部坐标系固定，传感器在空间中的实际指向还与卫星姿态有关。
 
@@ -90,7 +90,7 @@ Cone Half Angle 表示圆锥中心轴与边缘之间的夹角，因此半角为1
 
 随后打开 Reports → Access，查看计算报告。
 
-【插图06：显示 No Access Found 的报告】
+![10度半角下无可见窗口](../images/06-no-access.jpg)
 
 结果显示：
 
@@ -108,7 +108,7 @@ No Access Found（未找到可见时间窗口）
 
 重新计算 "Sensor1 → Facility1" 的 Access。
 
-【插图07：45°圆锥半角下的 Access 分析报告】
+![45度半角下的两次可见窗口](../images/07-access-45deg.jpg)
 
 这次计算得到了2个可见窗口：
 
@@ -137,7 +137,7 @@ No Access Found（未找到可见时间窗口）
 - Show Intersections：Central Body（中心天体）
 - Persistence Time：0 sec（持续显示时间为0秒）
 
-【插图08：2D Graphics → Projection 设置界面】
+![传感器二维地图投影设置](../images/08-sensor-projection.jpg)
 
 保存设置后，回到主界面，将仿真时间调整为：
 
@@ -147,7 +147,7 @@ No Access Found（未找到可见时间窗口）
 
 观察二维地图，可以看到 Satellite1、Facility1 以及相关的投影和轨迹图形。
 
-【插图09：07:30时刻的二维地图，包含 Satellite1 和 Facility1】
+![新西兰惠灵顿传感器覆盖情况](../images/09-new-zealand-coverage.jpg)
 
 需要注意，地图上可能同时显示轨道、地面轨迹、传感器投影等元素。不能仅根据线条颜色判断其含义，需要结合对象的图形显示设置。
 
