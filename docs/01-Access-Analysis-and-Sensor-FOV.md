@@ -30,7 +30,7 @@ STK 12.2 入门实操（一）：卫星对地可见性分析与传感器视场�
 
 点击 Reports 下的 Access，生成 Access Summary Report（可见性汇总报告）。
 
-
+![卫星与地面目标的可见性分析报告](../images/02-access-report.jpg)
 
 根据报告，24小时内计算得到7个几何可见窗口。
 
